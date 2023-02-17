@@ -1,0 +1,22 @@
+{% extends 'panel/index.html' %}
+{% load static %}
+
+{% block head %}
+<title>Check your mail</title>
+{% endblock %}
+
+{% block content %}
+<div class="container" style="width:40%; align-content:center;flex-wrap:wrap;">
+    <div class="card shadow-lg o-hidden border-0 my-5" style="border-radius: 16px;">
+        <div class="card-body">
+            <div class="text-center">
+                <h4 class="text-success mb-4" style="font-weight: bold;font-size: 29px;">Sent <i class="fa fa-check-circle"></i></h4>
+                <h3 class="text-primary mb-4" style="font-weight: bold;font-size: 15px;">Reset link has been sent to the mail-id you've entered. Kindly check your mail.</h3>
+                <h3 class="text-danger mb-4" style="font-weight: bold;font-size: 15px;">If you didn't receive an email, please make sure that you've entered the registered mail address or check the spam folder.</h3>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
