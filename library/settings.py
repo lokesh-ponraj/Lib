@@ -81,12 +81,12 @@ WSGI_APPLICATION = 'library.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
-        'USER':'postgres',
-        'PASSWORD':'wdIRjbJSgho19GqmUX6B',
-        'HOST':'containers-us-west-168.railway.app',
-        'PORT':'7063',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'lokesh',
+        'USER':'lokesh',
+        'PASSWORD':'Lokesh@123',
+        'HOST':'localhost',
+        'PORT':'5432',
     }
 }
 
